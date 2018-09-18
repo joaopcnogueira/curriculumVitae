@@ -1,0 +1,6 @@
+[submodule "vitae"]
+	path = vitae
+	url = https://github.com/jekyller/vitae.git
+[submodule "cv/vitae"]
+	path = cv/vitae
+	url = https://github.com/jekyller/vitae.git
