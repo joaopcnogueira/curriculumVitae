@@ -1,3 +1,3 @@
 [submodule "cv_website"]
-	path = cv_websitei/
+	path = cv_website
 	url = https://github.com/EmanuelFontelles/vitae
