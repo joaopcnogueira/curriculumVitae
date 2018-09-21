@@ -1,9 +1,3 @@
-[submodule "vitae"]
-	path = vitae
-	url = https://github.com/jekyller/vitae.git
-[submodule "cv/vitae"]
-	path = cv/vitae
-	url = https://github.com/jekyller/vitae.git
-[submodule "cv/cv_website"]
-	path = cv/cv_website
+[submodule "cv_website"]
+	path = cv_websitei/
 	url = https://github.com/EmanuelFontelles/vitae
