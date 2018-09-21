@@ -1,0 +1,16 @@
+---
+layout: layout
+---
+{% include aboutme.html %}
+
+{% include employment.html %}
+
+{% include skills.html %}
+
+{% include education.html %}
+
+<!--{% include initiatives.html %}-->
+
+<!--{% include interests.html %}-->
+
+<!--{% include contact.html %}-->
