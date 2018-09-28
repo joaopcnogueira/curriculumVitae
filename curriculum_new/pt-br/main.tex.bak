@@ -1,22 +1,17 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
-
-
 \documentclass[12pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % modern themes
 \moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{xcolor}
+\definecolor{gray-black}{HTML}{62676a}
+
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
 \usepackage[scale=0.81]{geometry}
@@ -52,48 +47,44 @@
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
+
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\small{I'm a PhD student on Complex Systems, an interdisciplinary field of sciences, working with networks in general. I've been studying Complex Networks, Econophysics, Markowitz efficient frontier, Minimum Spanning Tree in stock market and Black-Scholes model, algorithms and data structures. My background is in physics and statistical mechanics. I have skills on programming languages, machine learning algorithms, data mining and data visualization.}
+Venho atuando como aluno de doutorado em Física, na área de Sistemas Complexos, trabalhando com redes. Tenho estudado Redes Complexas, Econofísica,  
+
+\small{I'm a PhD student on Complex Systems, an interdisciplinary field of sciences, working with networks in general. I've been studying Complex Networks, Econophysics, Markowitz efficient frontier, Minimum Spanning Tree in stock market and Black-Scholes model, algorithms and data structures. My background is in physics and statistical mechanics. I have skills on programming languages, machine learning algorithms, data mining and data visualization. I am looking for a data scientist position to explore my skills as scientist, as also an exploratory data analyst. 
+}
 
 \section{FORMAÇÃO}
 
-\vspace{5pt}
+\vspace{6pt}
 
-\cventry{desde Março de 2018}{Universidade Federal do  Ceará}{Doutorado em Física, Sistemas Complexos}{Ceará, BR}{}{}
+\cventry{\textcolor{black}{\textcolor{gray-black}{desde Março de 2018}}}{Universidade Federal do  Ceará}{Doutorado em Física, Sistemas Complexos}{Ceará, BR}{}{}
 
-\vspace{5pt}
+\vspace{6pt}
 
-\cventry{Março 2016 – Fevereiro 2018}{Universidade Federal do  Ceará}{Mestrado em Física, Sistemas Complexos}{Ceará, BR}{}{}Título: \textsf{Estudo de redes complexas e Mecânica Estatística não-extensiva}.  % arguments 3 to 6 can be left empty
+\cventry{\textcolor{gray-black}{Março 2016 – Fevereiro 2018}}{Universidade Federal do  Ceará}{Mestrado em Física, Sistemas Complexos}{Ceará, BR}{}{}\textcolor{black}{Título: Estudo de redes complexas e Mecânica Estatística não-extensiva.}  % arguments 3 to 6 can be left empty
 
-\vspace{5pt}
+\vspace{6pt}
 
-\cventry{Março 2012 – Fevereiro 2016}{Universidade Federal do  Ceará}{BSc in Physics}{Ceará, BR}{}{}{Título: \textsf{Percolação e Criticalidade Auto-Organizada}.}% arguments 3 to 6 can be left empty
+\cventry{\textcolor{gray-black}{Março 2012 – Fevereiro 2016}}{Universidade Federal do  Ceará}{Bacharelado em Física}{Ceará, BR}{}{}{
+\textcolor{black}{Título: Percolação e Criticalidade Auto-Organizada.}}% arguments 3 to 6 can be left empty
 
 % \end{itemize}
 \section{EXPERIÊNCIA}
 
-\vspace{5pt}
-I have an solid mathematical and programming background. I am looking for a data scientist position to explore my skills as scientist, as also an exploratory data analyst. 
+\vspace{6pt}
+Diariamente desenvolvo projetos em redes complexas, desde a criação de algoritmos, análise de dados, reporte de resultados e escrita científica. Nos projetos realizados desenvolvi modelos que atuam entre Mecânica Estatistíca e Redes Complexas.
+\vspace{6pt}
 
-\vspace{5pt}
+\cventry{\textcolor{gray-black}{desde Março de 2018}}{Universidade Federal do Ceará}{Doutorado em Física}{Ceará, BR}{}{}
 
-\cventry{desde Mar 2018}{Universidade Federal do Ceará}{PhD student in Physics}{Ceará, BR}{}{Developing algorithms to generate complex networks using non-extensive Statistical Mechanics.}
-
-%
-%\item{\cventry{2009--2011}{Waiter, Catering and Banqueting}{Lavender Best Western Park Hall Hotel}{Charnock Richard}{}{\vspace{3pt}I worked for three years as a team leader providing silver service at weddings, stag/hen nights, and business conferences. I was often trusted with other jobs such as setting up conference rooms, moving beds around the hotel, and guiding big groups of customers to their rooms. As a team leader I would delegate tasks to a team of about 5 people, often new staff who needed training, and lead the group to service. During this time I worked in a highly professional manner and was focused to provide excellent customer service, even during high stress functions and events.}}
-%
-%\vspace{6pt}
-%
-%\item{\cventry{January 2008}{Assistant Electrician}{Ryan Electricals}{Southport}{}{\vspace{3pt}I spent a week working as an assistant electrician as part of my high school work experience. My roles included wiring plugs, tidying, and assisting with household electrical repairs and fittings.}}
-
-\section{SKILLS}
+\section{HABILIDADES}
 
 \vspace{6pt}
-I am an active Python user doing scientific computing. I am proficient using Python data science ecosystem to perform a variety of tasks required in a daily data science project such as data exploration, visualizations and machine learning. I am also familiar with software and web development tools. 
+Atuo dentro do ecossistema de Python, trabalhando com as principais bibliotecas na área de computação científica e tratamento de dados. As mesma compreendem algébra linear, exploração de dados, visualização e aprendizado de máquina. Também possuo familiaridade com diversos softwares e ferramentas de desenvolvimento \textit{web}.
 \vspace{6pt}
 
 \textbf{Análise de Dados:} Pandas, Scikit-Learn, NumPy, NetworkX, SciPy, Jupyter e exposição a Tensorflow and Keras.
@@ -108,7 +99,7 @@ I am an active Python user doing scientific computing. I am proficient using Pyt
 
 \vspace{6pt}
 
-\textbf{Idiomas:} Português (nativo), Inglês (fluênte) e noções de Espanhol.
+\textbf{Idiomas:} Português (nativo), Inglês (fluente) e noções de Espanhol.
 
 %\section{PROJECTS}
 %
