@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,times]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[12pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % modern themes
 \moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -19,7 +19,7 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.83]{geometry}
+\usepackage[scale=0.81]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -36,6 +36,10 @@
 \social[github]{emanuelfontelles}
 \social[linkedin]{emanuelfontelles}
 \homepage{emanuelfontelles.github.io/}                         % optional, remove / comment the line if not wanted
+
+\usepackage{xcolor}
+\definecolor{gray-black}{HTML}{62676a}
+
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
@@ -61,61 +65,48 @@
 
 \section{EDUCATION}
 
-\vspace{5pt}
+\vspace{6pt}
 
-\begin{itemize}
+\cventry{\textcolor{black}{\textcolor{gray-black}{since Mar 2018}}}{Universidade Federal do  Ceará}{PhD in Physics, Complex Systems}{Ceará, BR}{}{}
 
-\item{\cventry{since Mar 2018}{Federal University of Ceará}{PhD in Physics, Complex Systems }{Ceará, BR}{}{}}
+\vspace{6pt}
 
-\item{\cventry{Mar 2016 – Feb 2018}{Federal University of Ceará}{MSc in Physics, Complex Systems}{Ceará, BR}{}{}Master thesis: Estudo de redes complexas e Mecânica Estatística não-extensiva.\\(\textit{Complex networks and non-extensive Statistical Mechanics}).}  % arguments 3 to 6 can be left empty
+\cventry{\textcolor{gray-black}{Mar 2016 – Feb 2018}}{Universidade Federal do  Ceará}{MSc in Physics, Complex Systems}{Ceará, BR}{}{}\textcolor{black}{Master thesis: Estudo de redes complexas e Mecânica Estatística não-extensiva.\\(\textit{Complex networks and non-extensive Statistical Mechanics}).}
 
-\item{\cventry{Mar 2012 – Feb 2016}{Federal University of Ceará}{BSc in Physics}{Ceará, BR}{}{}Bachelor thesis: Percolação e Criticalidade Auto-Organizada.\\(\textit{Percolation and Self Organized Critically}).}  % arguments 3 to 6 can be left empty
+\vspace{6pt}
 
-\end{itemize}
+\cventry{\textcolor{gray-black}{Mar 2012 – Feb 2016}}{Universidade Federal do  Ceará}{BSc in Physics}{Ceará, BR}{}{}\textcolor{black}{Bachelor thesis: Percolação e Criticalidade Auto-Organizada.\\(\textit{Percolation and Self Organized Critically}). }
+
 \section{EMPLOYMENT}
+Daily, I develop projects in complex networks, from the creation of algorithms, data analysis, results reporting to scientific writing. In the projects performed I developed models that work between Statistical Mechanics and Complex Networks.
 
 \vspace{6pt}
-I have an solid mathematical and programming background. I am looking for a data scientist position to explore my skills as scientist, as also an exploratory data analyst. 
-\begin{itemize}
-\item {\cventry{since Mar 2018}{Federal University of Ceará}{PhD student in Physics}{Ceará, BR}{}{Developing algorithms to generate complex networks using non-extensive Statistical Mechanics.}}
 
-\vspace{6pt}
-%
-%\item{\cventry{2009--2011}{Waiter, Catering and Banqueting}{Lavender Best Western Park Hall Hotel}{Charnock Richard}{}{\vspace{3pt}I worked for three years as a team leader providing silver service at weddings, stag/hen nights, and business conferences. I was often trusted with other jobs such as setting up conference rooms, moving beds around the hotel, and guiding big groups of customers to their rooms. As a team leader I would delegate tasks to a team of about 5 people, often new staff who needed training, and lead the group to service. During this time I worked in a highly professional manner and was focused to provide excellent customer service, even during high stress functions and events.}}
-%
-%\vspace{6pt}
-%
-%\item{\cventry{January 2008}{Assistant Electrician}{Ryan Electricals}{Southport}{}{\vspace{3pt}I spent a week working as an assistant electrician as part of my high school work experience. My roles included wiring plugs, tidying, and assisting with household electrical repairs and fittings.}}
-
-\end{itemize}
-
+\cventry{\textcolor{gray-black}{since Mar 2018}}{Universidade Federal do Ceará}{PhD in Physics}{Ceará, BR}{}{}
 
 \section{SKILLS}
 
 \vspace{6pt}
 I am an active Python user doing scientific computing. I am proficient using Python data science ecosystem to perform a variety of tasks required in a daily data science project such as data exploration, visualizations and machine learning. I am also familiar with software and web development tools. 
 \vspace{6pt}
-\begin{itemize}
 
-\item \textbf{Python tools:} Pandas, Scikit-Learn, NumPy, NetworkX, SciPy, Jupyter and exposure to Tensorflow and Keras.
-
-\vspace{6pt}
-
-\item \textbf{Data Visualization:} Matplotlib, Seaborn, Plotly, Bokeh, Altair, shiny and exposure to D3.js.
+\textbf{Python tools:} Pandas, Scikit-Learn, NumPy, NetworkX, SciPy, Jupyter and exposure to Tensorflow and Keras.
 
 \vspace{6pt}
 
-\item \textbf{Other computer skills:} C/C++, R, Julia, Git, GitHub, Markdown, Jekyll, Ruby on Rails, YAML, JSON, SQL, CSV, XML, HTML/CSSand  Javascript.
+\textbf{Data Visualization:} Matplotlib, Seaborn, Plotly, Bokeh, Altair, shiny and exposure to D3.js.
 
 \vspace{6pt}
 
-\item \textbf{System Maintenance:} Linux, Bash, SSH and Windows.
+\textbf{Other computer skills:} C/C++, R, Julia, Git, GitHub, Markdown, Jekyll, Ruby on Rails, YAML, JSON, SQL, CSV, XML, HTML/CSSand  Javascript.
 
 \vspace{6pt}
 
-\item \textbf{Languages:} Portuguese (native), English (fluent) and some knowledge of Spanish.
+\textbf{System Maintenance:} Linux, Bash, SSH and Windows.
 
-\end{itemize}
+\vspace{6pt}
+
+\textbf{Languages:} Portuguese (native), English (fluent) and some knowledge of Spanish.
 
 %\section{PROJECTS}
 %
